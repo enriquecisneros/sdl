@@ -1,0 +1,36 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Sheds Direct of Lexington'
+description: 'Author Rick Cisneros'
+package: 'Bootstrap'
+
+regions:
+  topbarlt: 'Top Bar Left'
+  topbarrt: 'Top Bar Right'
+  logo: 'Logo Area'
+  mainnav: 'Main Navigation'
+  titlebarlt: 'Title Area Left'
+  titlebarrt: 'Title Area Right'
+  hero: 'Front Hero'
+  visualnav: 'Front Visual Nav'
+  amish: 'Front Amish'
+  shedbuilder: 'Front Shedbuilder'
+  testimonials: 'Front Testimonials'
+  review: 'Front Review'
+  delivery:     'Building Delivery'
+  prefooter1:  'Prefooter Box 1'
+  prefooter2:  'Prefooter Box 2'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries-extend:
+  bootstrap/framework:
+    - sdol/framework
